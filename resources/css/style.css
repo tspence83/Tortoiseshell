@@ -2,12 +2,22 @@ html{
   font-size: 18px;
   line-height: 1.4;
 }
+/*body{
+  display: block;
+  align-content: center;
+}*/
 
-.top{
+header{
   display: flex;
-  max-width: 960px;
+  font-family: Helvetica;
+  font-size: 1rem;
+  background-color: cadetblue;
+  color: white;
   align-items: center;
-
+  z-index: 1;
+  /*Need to rearrange to put image in header and center*/
+  /*max-width: 960px;
+  margin: 0 auto;*/
 }
 
 .logo{
@@ -35,17 +45,46 @@ html{
   padding-right: 2rem;
 }
 
-nav{
+header span{
+  display: inline-block;
+}
+
+.mainbg{
   display: flex;
+  background-image:url(../images/glasses-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+}
+
+.mainbg span{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-right: 2rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  align-content: center;
+  justify-content: content;
   font-family: Helvetica;
-  font-size: 1rem;
-  background-color: cadetblue;
-  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  background-color: white;
+}
+
+.offerings{
+  display: flex;
   align-items: center;
-  max-width: 960px;
+  justify-content: center;
 
 }
 
-nav span{
-  display: inline-block;
+.trait1{
+  display: block;
+  padding-top: 3rem;
+  padding-right: 6rem;
 }
