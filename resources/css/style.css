@@ -80,11 +80,68 @@ header span{
   display: flex;
   align-items: center;
   justify-content: center;
-
+  padding-bottom: 3rem;
 }
 
+
 .trait1{
-  display: block;
-  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
   padding-right: 6rem;
+  padding-top: 3rem;
+  height: 8rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.trait1 img{
+  width: 3.5rem;
+  padding-bottom: 1rem;
+}
+
+.trait2{
+  display: flex;
+  flex-direction: column;
+  padding-right: 6rem;
+  padding-top: 3rem;
+  height: 8rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.trait2 img{
+    width: 5rem;
+    padding-bottom: 1rem;
+}
+
+.trait3{
+  display: flex;
+  flex-direction: column;
+  padding-right: 6rem;
+  padding-top: 3rem;
+  height: 8rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.trait3 img{
+  width: 5rem;
+  padding-bottom: 1rem;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+}
+
+.content span{
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: cadetblue;
+  padding-left: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: white;
+  width: 10rem;
 }
